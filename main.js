@@ -2,7 +2,7 @@ const TG = require("telegram-bot-api");
 const https = require("https");
 
 const api = new TG({
-  token: "7143897110:AAFGzSSDNUPiFPH_RHqZ0cHi1lZ5aPt-MXg",
+  token: "",
 });
 
 api.setMessageProvider(new TG.GetUpdateMessageProvider());
